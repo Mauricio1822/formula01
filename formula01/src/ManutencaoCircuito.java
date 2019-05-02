@@ -36,6 +36,8 @@ public class ManutencaoCircuito extends javax.swing.JDialog {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -54,6 +56,10 @@ public class ManutencaoCircuito extends javax.swing.JDialog {
 
         jButton4.setText("Cancelar");
 
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "AD - Andorra", "AE - Emirados Árabes Unidos", "AF - Afeganistão", "AG - Antígua e Barbuda", "AI - Anguilla", "AL - Albânia", "AM - Armênia", "AO - Angola", "AQ - Antártica", "AR - Argentina", "AS - Samoa Americana", "AT - Áustria", "AU - Austrália", "AW - Aruba", "AZ - Azerbaijão", "BA - Bósnia e Herzegovina", "BB - Barbados", "BD - Bangladesh", "BE - Bélgica", "BF - Burkina Faso", "BG - Bulgária", "BH - Barém", "BI - Burundi", "BJ - Benin", "BL - São Bartolomeu", "BM - Bermuda", "BN - Brunei", "BO - Bolívia", "BR - Brasil", "BS - Bahamas", "BT - Butão", "BV - Ilha Bouvet", "BW - Botswana", "BY - Belarus", "BZ - Belize", "CA - Canadá", "CC - Ilhas Cocos (Keeling)", "CD - Congo, República Democrática do", "CF - República Centro-Africana", "CG - Congo, República do", "CH - Suíça", "CI - Costa do Marfim", "CK - Ilhas Cook", "CL - Chile", "CM - Camarões", "CN - China", "CO - Colômbia", "CR - Costa Rica", "CU - Cuba", "CV - Cabo Verde", "CW - Curaçao", "CX - Ilha Christmas", "CY - Chipre", "CZ - República Tcheca", "DE - Alemanha", "DJ - Djibuti", "DK - Dinamarca", "DM - Dominica", "DO - República Dominicana", "DZ - Argélia", "EC - Equador", "EE - Estônia", "EG - Egito", "EH - Saara Ocidental", "ER - Eritréia", "ES - Espanha", "ET - Etiópia", "FI - Finlândia", "FJ - Fiji", "FK - Ilhas Falkland (Malvinas)", "FM - Micronésia, Estados Federados da", "FO - Ilhas Feroe", "FR - França", "FX - França Metropolitana", "GA - Gabão", "GB - Reino Unido", "GD - Grenada", "GE - Geórgia", "GF - Guiana Francesa", "GG - Guernsey", "GH - Gana", "GI - Gibraltar", "GL - Greenland", "GM - Gâmbia", "GN - Guiné", "GP - Guadelupe", "GQ - Guiné Equatorial", "GR - Grécia", "GS - Geórgia do Sul e Ilhas", "GT - Guatemala", "GU - Guam", "GW - Guiné-Bissau", "GY - Guiana", "HK - Hong Kong", "HM - Ilhas Heard and McDonald", "HN - Honduras", "HR - Croácia", "HT - Haiti", "HU - Hungria", "ID - Indonésia", "IE - Irlanda", "IL - Israel", "IM - Ilha de Man", "IN - Índia", "IO - Território Britânico do Oceano Índico", "IQ - Iraque", "IR - Irã", "IS - Islândia", "IT - Itália", "JE - Jersey", "JM - Jamaica", "JO - Jordânia", "JP - Japão", "KE - Quênia", "KG - Quirguistão", "KH - Camboja", "KI - Kiribati", "KM - Cômoros", "KN - São Cristóvão e Nevis", "KP - Coreia do Norte", "KR - Coreia do Sul", "KW - Kuwait", "KY - Ilhas Caiman", "KZ - Cazaquistão", "LA - Laos", "LB - Líbano", "LC - Santa Lúcia", "LI - Liechtenstein", "LK - Sri Lanka", "LR - Libéria", "LS - Lesoto", "LT - Lituânia", "LU - Luxemburgo", "LV - Letônia", "LY - Líbia", "MA - Marrocos", "MC - Mônaco", "MD - Moldova", "ME - Montenegro", "MF - Saint Martin", "MG - Madagascar", "MH - Ilhas Marshall", "MK - Macedônia", "ML - Mali", "MM - Birmânia", "MN - Mongólia", "MO - Macao", "MP - Ilhas Marianas do Norte", "MQ - Martinica", "MR - Mauritânia", "MS - Montserrat", "MT - Malta", "mu – Ilhas Maurício", "MV - Maldivas", "MW - Malawi", "MX - México", "MY - Malásia", "MZ - Moçambique", "NA - Namíbia", "NC - Nova Caledônia", "NE - Níger", "NF - Ilha Norfolk", "NG - Nigéria", "NI - Nicarágua", "NL - Holanda", "NO - Noruega", "NP - Nepal", "NR - Nauru", "NU - Niue", "NZ - Nova Zelândia", "OM - Omã", "PA - Panamá", "PE - Peru", "PF - Polinésia Francesa", "PG - Papua Nova Guiné", "PH - Filipinas", "PK - Paquistão", "PL - Polônia", "PM - Saint Pierre e Miquelon", "PN - Ilhas Pitcairn", "PR - Porto Rico", "PS - Faixa de Gaza", "PS - Cisjordânia", "PT - Portugal", "PW - Palau", "PY - Paraguai", "QA - Qatar", "RE - Reunião", "RO - Romênia", "RS - Sérvia", "RU - Rússia", "RW - Ruanda", "SA - Arábia Saudita", "SB - Ilhas Salomão", "SC - Seicheles", "SD - Sudão", "SE - Suécia", "SG - Cingapura", "SH - Santa Helena, Ascensão e Tristão da Cunha", "SI - Eslovênia", "SJ - Svalbard", "SK - Eslováquia", "SL - Serra Leoa", "SM - San Marino", "SN - Senegal", "SO - Somália", "SR - Suriname", "SS - Sudão do Sul", "ST - São Tomé e Príncipe", "SV - El Salvador", "SX - São Martinho", "SY - Síria", "SZ - Suazilândia", "TC - Ilhas Turks e Caicos", "TD - Chad", "TF - Sul da França e Antártica", "TG - Togo", "TH - Tailândia", "TJ - Tadjiquistão", "TK - Toquelau", "TL - Timor-Leste", "TM - Turcomenistão", "TN - Tunísia", "TO - Tonga", "TR - Turquia", "TT - Trinidad e Tobago", "TV - Tuvalu", "TW - Taiwan", "TZ - Tanzânia", "UA - Ucrânia", "UG - Uganda", "UM - Ilhas Menores Distantes dos Estados Unidos", "US - Estados Unidos", "UY - Uruguai", "UZ - Uzbequistão", "VA - Santa Sé (Cidade do Vaticano)", "VC - São Vicente e Granadinas", "VE - Venezuela", "VG - Ilhas Virgens Britânicas", "VI - Ilhas Virgens Americanas", "VN - Vietnã", "VU - Vanuatu", "WF - Ilhas Wallis e Futuna", "WS - Samoa", "XK - Kosovo", "YE - Iêmen", "YT - Maiote", "ZA - África do Sul", "ZM - Zâmbia", "ZW - Zimbábue" }));
+
+        jLabel4.setText("País:");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -61,26 +67,32 @@ public class ManutencaoCircuito extends javax.swing.JDialog {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(27, 27, 27)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel3))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jTextField1)
-                            .addComponent(jTextField2, javax.swing.GroupLayout.DEFAULT_SIZE, 180, Short.MAX_VALUE)))
-                    .addGroup(layout.createSequentialGroup()
                         .addGap(79, 79, 79)
                         .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
+                        .addGap(14, 14, 14)
                         .addComponent(jButton1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButton2)
                         .addGap(18, 18, 18)
                         .addComponent(jButton3)
                         .addGap(18, 18, 18)
-                        .addComponent(jButton4)))
+                        .addComponent(jButton4))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(27, 27, 27)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel2)
+                                    .addComponent(jLabel3)))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jLabel4)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jTextField1)
+                            .addComponent(jTextField2)
+                            .addComponent(jComboBox1, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addContainerGap(83, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -96,13 +108,17 @@ public class ManutencaoCircuito extends javax.swing.JDialog {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
                     .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(33, 33, 33)
+                .addGap(5, 5, 5)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel4))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(jButton2)
                     .addComponent(jButton3)
                     .addComponent(jButton4))
-                .addContainerGap(155, Short.MAX_VALUE))
+                .addGap(23, 23, 23))
         );
 
         pack();
@@ -155,9 +171,11 @@ public class ManutencaoCircuito extends javax.swing.JDialog {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
+    private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     // End of variables declaration//GEN-END:variables

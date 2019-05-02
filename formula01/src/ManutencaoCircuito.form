@@ -25,31 +25,40 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jTextField1" max="32767" attributes="0"/>
-                          <Component id="jTextField2" pref="180" max="32767" attributes="0"/>
-                      </Group>
-                  </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
                       <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="jButton2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jButton3" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jTextField1" max="32767" attributes="0"/>
+                          <Component id="jTextField2" max="32767" attributes="0"/>
+                          <Component id="jComboBox1" max="32767" attributes="0"/>
+                      </Group>
                   </Group>
               </Group>
               <EmptySpace pref="83" max="32767" attributes="0"/>
@@ -71,14 +80,19 @@
                   <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="25" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="155" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -124,6 +138,272 @@
     <Component class="javax.swing.JButton" name="jButton4">
       <Properties>
         <Property name="text" type="java.lang.String" value="Cancelar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="250">
+            <StringItem index="0" value="AD - Andorra"/>
+            <StringItem index="1" value="AE - Emirados &#xc1;rabes Unidos"/>
+            <StringItem index="2" value="AF - Afeganist&#xe3;o"/>
+            <StringItem index="3" value="AG - Ant&#xed;gua e Barbuda"/>
+            <StringItem index="4" value="AI - Anguilla"/>
+            <StringItem index="5" value="AL - Alb&#xe2;nia"/>
+            <StringItem index="6" value="AM - Arm&#xea;nia"/>
+            <StringItem index="7" value="AO - Angola"/>
+            <StringItem index="8" value="AQ - Ant&#xe1;rtica"/>
+            <StringItem index="9" value="AR - Argentina"/>
+            <StringItem index="10" value="AS - Samoa Americana"/>
+            <StringItem index="11" value="AT - &#xc1;ustria"/>
+            <StringItem index="12" value="AU - Austr&#xe1;lia"/>
+            <StringItem index="13" value="AW - Aruba"/>
+            <StringItem index="14" value="AZ - Azerbaij&#xe3;o"/>
+            <StringItem index="15" value="BA - B&#xf3;snia e Herzegovina"/>
+            <StringItem index="16" value="BB - Barbados"/>
+            <StringItem index="17" value="BD - Bangladesh"/>
+            <StringItem index="18" value="BE - B&#xe9;lgica"/>
+            <StringItem index="19" value="BF - Burkina Faso"/>
+            <StringItem index="20" value="BG - Bulg&#xe1;ria"/>
+            <StringItem index="21" value="BH - Bar&#xe9;m"/>
+            <StringItem index="22" value="BI - Burundi"/>
+            <StringItem index="23" value="BJ - Benin"/>
+            <StringItem index="24" value="BL - S&#xe3;o Bartolomeu"/>
+            <StringItem index="25" value="BM - Bermuda"/>
+            <StringItem index="26" value="BN - Brunei"/>
+            <StringItem index="27" value="BO - Bol&#xed;via"/>
+            <StringItem index="28" value="BR - Brasil"/>
+            <StringItem index="29" value="BS - Bahamas"/>
+            <StringItem index="30" value="BT - But&#xe3;o"/>
+            <StringItem index="31" value="BV - Ilha Bouvet"/>
+            <StringItem index="32" value="BW - Botswana"/>
+            <StringItem index="33" value="BY - Belarus"/>
+            <StringItem index="34" value="BZ - Belize"/>
+            <StringItem index="35" value="CA - Canad&#xe1;"/>
+            <StringItem index="36" value="CC - Ilhas Cocos (Keeling)"/>
+            <StringItem index="37" value="CD - Congo, Rep&#xfa;blica Democr&#xe1;tica do"/>
+            <StringItem index="38" value="CF - Rep&#xfa;blica Centro-Africana"/>
+            <StringItem index="39" value="CG - Congo, Rep&#xfa;blica do"/>
+            <StringItem index="40" value="CH - Su&#xed;&#xe7;a"/>
+            <StringItem index="41" value="CI - Costa do Marfim"/>
+            <StringItem index="42" value="CK - Ilhas Cook"/>
+            <StringItem index="43" value="CL - Chile"/>
+            <StringItem index="44" value="CM - Camar&#xf5;es"/>
+            <StringItem index="45" value="CN - China"/>
+            <StringItem index="46" value="CO - Col&#xf4;mbia"/>
+            <StringItem index="47" value="CR - Costa Rica"/>
+            <StringItem index="48" value="CU - Cuba"/>
+            <StringItem index="49" value="CV - Cabo Verde"/>
+            <StringItem index="50" value="CW - Cura&#xe7;ao"/>
+            <StringItem index="51" value="CX - Ilha Christmas"/>
+            <StringItem index="52" value="CY - Chipre"/>
+            <StringItem index="53" value="CZ - Rep&#xfa;blica Tcheca"/>
+            <StringItem index="54" value="DE - Alemanha"/>
+            <StringItem index="55" value="DJ - Djibuti"/>
+            <StringItem index="56" value="DK - Dinamarca"/>
+            <StringItem index="57" value="DM - Dominica"/>
+            <StringItem index="58" value="DO - Rep&#xfa;blica Dominicana"/>
+            <StringItem index="59" value="DZ - Arg&#xe9;lia"/>
+            <StringItem index="60" value="EC - Equador"/>
+            <StringItem index="61" value="EE - Est&#xf4;nia"/>
+            <StringItem index="62" value="EG - Egito"/>
+            <StringItem index="63" value="EH - Saara Ocidental"/>
+            <StringItem index="64" value="ER - Eritr&#xe9;ia"/>
+            <StringItem index="65" value="ES - Espanha"/>
+            <StringItem index="66" value="ET - Eti&#xf3;pia"/>
+            <StringItem index="67" value="FI - Finl&#xe2;ndia"/>
+            <StringItem index="68" value="FJ - Fiji"/>
+            <StringItem index="69" value="FK - Ilhas Falkland (Malvinas)"/>
+            <StringItem index="70" value="FM - Micron&#xe9;sia, Estados Federados da"/>
+            <StringItem index="71" value="FO - Ilhas Feroe"/>
+            <StringItem index="72" value="FR - Fran&#xe7;a"/>
+            <StringItem index="73" value="FX - Fran&#xe7;a Metropolitana"/>
+            <StringItem index="74" value="GA - Gab&#xe3;o"/>
+            <StringItem index="75" value="GB - Reino Unido"/>
+            <StringItem index="76" value="GD - Grenada"/>
+            <StringItem index="77" value="GE - Ge&#xf3;rgia"/>
+            <StringItem index="78" value="GF - Guiana Francesa"/>
+            <StringItem index="79" value="GG - Guernsey"/>
+            <StringItem index="80" value="GH - Gana"/>
+            <StringItem index="81" value="GI - Gibraltar"/>
+            <StringItem index="82" value="GL - Greenland"/>
+            <StringItem index="83" value="GM - G&#xe2;mbia"/>
+            <StringItem index="84" value="GN - Guin&#xe9;"/>
+            <StringItem index="85" value="GP - Guadelupe"/>
+            <StringItem index="86" value="GQ - Guin&#xe9; Equatorial"/>
+            <StringItem index="87" value="GR - Gr&#xe9;cia"/>
+            <StringItem index="88" value="GS - Ge&#xf3;rgia do Sul e Ilhas"/>
+            <StringItem index="89" value="GT - Guatemala"/>
+            <StringItem index="90" value="GU - Guam"/>
+            <StringItem index="91" value="GW - Guin&#xe9;-Bissau"/>
+            <StringItem index="92" value="GY - Guiana"/>
+            <StringItem index="93" value="HK - Hong Kong"/>
+            <StringItem index="94" value="HM - Ilhas Heard and McDonald"/>
+            <StringItem index="95" value="HN - Honduras"/>
+            <StringItem index="96" value="HR - Cro&#xe1;cia"/>
+            <StringItem index="97" value="HT - Haiti"/>
+            <StringItem index="98" value="HU - Hungria"/>
+            <StringItem index="99" value="ID - Indon&#xe9;sia"/>
+            <StringItem index="100" value="IE - Irlanda"/>
+            <StringItem index="101" value="IL - Israel"/>
+            <StringItem index="102" value="IM - Ilha de Man"/>
+            <StringItem index="103" value="IN - &#xcd;ndia"/>
+            <StringItem index="104" value="IO - Territ&#xf3;rio Brit&#xe2;nico do Oceano &#xcd;ndico"/>
+            <StringItem index="105" value="IQ - Iraque"/>
+            <StringItem index="106" value="IR - Ir&#xe3;"/>
+            <StringItem index="107" value="IS - Isl&#xe2;ndia"/>
+            <StringItem index="108" value="IT - It&#xe1;lia"/>
+            <StringItem index="109" value="JE - Jersey"/>
+            <StringItem index="110" value="JM - Jamaica"/>
+            <StringItem index="111" value="JO - Jord&#xe2;nia"/>
+            <StringItem index="112" value="JP - Jap&#xe3;o"/>
+            <StringItem index="113" value="KE - Qu&#xea;nia"/>
+            <StringItem index="114" value="KG - Quirguist&#xe3;o"/>
+            <StringItem index="115" value="KH - Camboja"/>
+            <StringItem index="116" value="KI - Kiribati"/>
+            <StringItem index="117" value="KM - C&#xf4;moros"/>
+            <StringItem index="118" value="KN - S&#xe3;o Crist&#xf3;v&#xe3;o e Nevis"/>
+            <StringItem index="119" value="KP - Coreia do Norte"/>
+            <StringItem index="120" value="KR - Coreia do Sul"/>
+            <StringItem index="121" value="KW - Kuwait"/>
+            <StringItem index="122" value="KY - Ilhas Caiman"/>
+            <StringItem index="123" value="KZ - Cazaquist&#xe3;o"/>
+            <StringItem index="124" value="LA - Laos"/>
+            <StringItem index="125" value="LB - L&#xed;bano"/>
+            <StringItem index="126" value="LC - Santa L&#xfa;cia"/>
+            <StringItem index="127" value="LI - Liechtenstein"/>
+            <StringItem index="128" value="LK - Sri Lanka"/>
+            <StringItem index="129" value="LR - Lib&#xe9;ria"/>
+            <StringItem index="130" value="LS - Lesoto"/>
+            <StringItem index="131" value="LT - Litu&#xe2;nia"/>
+            <StringItem index="132" value="LU - Luxemburgo"/>
+            <StringItem index="133" value="LV - Let&#xf4;nia"/>
+            <StringItem index="134" value="LY - L&#xed;bia"/>
+            <StringItem index="135" value="MA - Marrocos"/>
+            <StringItem index="136" value="MC - M&#xf4;naco"/>
+            <StringItem index="137" value="MD - Moldova"/>
+            <StringItem index="138" value="ME - Montenegro"/>
+            <StringItem index="139" value="MF - Saint Martin"/>
+            <StringItem index="140" value="MG - Madagascar"/>
+            <StringItem index="141" value="MH - Ilhas Marshall"/>
+            <StringItem index="142" value="MK - Maced&#xf4;nia"/>
+            <StringItem index="143" value="ML - Mali"/>
+            <StringItem index="144" value="MM - Birm&#xe2;nia"/>
+            <StringItem index="145" value="MN - Mong&#xf3;lia"/>
+            <StringItem index="146" value="MO - Macao"/>
+            <StringItem index="147" value="MP - Ilhas Marianas do Norte"/>
+            <StringItem index="148" value="MQ - Martinica"/>
+            <StringItem index="149" value="MR - Maurit&#xe2;nia"/>
+            <StringItem index="150" value="MS - Montserrat"/>
+            <StringItem index="151" value="MT - Malta"/>
+            <StringItem index="152" value="mu &#x2013; Ilhas Maur&#xed;cio"/>
+            <StringItem index="153" value="MV - Maldivas"/>
+            <StringItem index="154" value="MW - Malawi"/>
+            <StringItem index="155" value="MX - M&#xe9;xico"/>
+            <StringItem index="156" value="MY - Mal&#xe1;sia"/>
+            <StringItem index="157" value="MZ - Mo&#xe7;ambique"/>
+            <StringItem index="158" value="NA - Nam&#xed;bia"/>
+            <StringItem index="159" value="NC - Nova Caled&#xf4;nia"/>
+            <StringItem index="160" value="NE - N&#xed;ger"/>
+            <StringItem index="161" value="NF - Ilha Norfolk"/>
+            <StringItem index="162" value="NG - Nig&#xe9;ria"/>
+            <StringItem index="163" value="NI - Nicar&#xe1;gua"/>
+            <StringItem index="164" value="NL - Holanda"/>
+            <StringItem index="165" value="NO - Noruega"/>
+            <StringItem index="166" value="NP - Nepal"/>
+            <StringItem index="167" value="NR - Nauru"/>
+            <StringItem index="168" value="NU - Niue"/>
+            <StringItem index="169" value="NZ - Nova Zel&#xe2;ndia"/>
+            <StringItem index="170" value="OM - Om&#xe3;"/>
+            <StringItem index="171" value="PA - Panam&#xe1;"/>
+            <StringItem index="172" value="PE - Peru"/>
+            <StringItem index="173" value="PF - Polin&#xe9;sia Francesa"/>
+            <StringItem index="174" value="PG - Papua Nova Guin&#xe9;"/>
+            <StringItem index="175" value="PH - Filipinas"/>
+            <StringItem index="176" value="PK - Paquist&#xe3;o"/>
+            <StringItem index="177" value="PL - Pol&#xf4;nia"/>
+            <StringItem index="178" value="PM - Saint Pierre e Miquelon"/>
+            <StringItem index="179" value="PN - Ilhas Pitcairn"/>
+            <StringItem index="180" value="PR - Porto Rico"/>
+            <StringItem index="181" value="PS - Faixa de Gaza"/>
+            <StringItem index="182" value="PS - Cisjord&#xe2;nia"/>
+            <StringItem index="183" value="PT - Portugal"/>
+            <StringItem index="184" value="PW - Palau"/>
+            <StringItem index="185" value="PY - Paraguai"/>
+            <StringItem index="186" value="QA - Qatar"/>
+            <StringItem index="187" value="RE - Reuni&#xe3;o"/>
+            <StringItem index="188" value="RO - Rom&#xea;nia"/>
+            <StringItem index="189" value="RS - S&#xe9;rvia"/>
+            <StringItem index="190" value="RU - R&#xfa;ssia"/>
+            <StringItem index="191" value="RW - Ruanda"/>
+            <StringItem index="192" value="SA - Ar&#xe1;bia Saudita"/>
+            <StringItem index="193" value="SB - Ilhas Salom&#xe3;o"/>
+            <StringItem index="194" value="SC - Seicheles"/>
+            <StringItem index="195" value="SD - Sud&#xe3;o"/>
+            <StringItem index="196" value="SE - Su&#xe9;cia"/>
+            <StringItem index="197" value="SG - Cingapura"/>
+            <StringItem index="198" value="SH - Santa Helena, Ascens&#xe3;o e Trist&#xe3;o da Cunha"/>
+            <StringItem index="199" value="SI - Eslov&#xea;nia"/>
+            <StringItem index="200" value="SJ - Svalbard"/>
+            <StringItem index="201" value="SK - Eslov&#xe1;quia"/>
+            <StringItem index="202" value="SL - Serra Leoa"/>
+            <StringItem index="203" value="SM - San Marino"/>
+            <StringItem index="204" value="SN - Senegal"/>
+            <StringItem index="205" value="SO - Som&#xe1;lia"/>
+            <StringItem index="206" value="SR - Suriname"/>
+            <StringItem index="207" value="SS - Sud&#xe3;o do Sul"/>
+            <StringItem index="208" value="ST - S&#xe3;o Tom&#xe9; e Pr&#xed;ncipe"/>
+            <StringItem index="209" value="SV - El Salvador"/>
+            <StringItem index="210" value="SX - S&#xe3;o Martinho"/>
+            <StringItem index="211" value="SY - S&#xed;ria"/>
+            <StringItem index="212" value="SZ - Suazil&#xe2;ndia"/>
+            <StringItem index="213" value="TC - Ilhas Turks e Caicos"/>
+            <StringItem index="214" value="TD - Chad"/>
+            <StringItem index="215" value="TF - Sul da Fran&#xe7;a e Ant&#xe1;rtica"/>
+            <StringItem index="216" value="TG - Togo"/>
+            <StringItem index="217" value="TH - Tail&#xe2;ndia"/>
+            <StringItem index="218" value="TJ - Tadjiquist&#xe3;o"/>
+            <StringItem index="219" value="TK - Toquelau"/>
+            <StringItem index="220" value="TL - Timor-Leste"/>
+            <StringItem index="221" value="TM - Turcomenist&#xe3;o"/>
+            <StringItem index="222" value="TN - Tun&#xed;sia"/>
+            <StringItem index="223" value="TO - Tonga"/>
+            <StringItem index="224" value="TR - Turquia"/>
+            <StringItem index="225" value="TT - Trinidad e Tobago"/>
+            <StringItem index="226" value="TV - Tuvalu"/>
+            <StringItem index="227" value="TW - Taiwan"/>
+            <StringItem index="228" value="TZ - Tanz&#xe2;nia"/>
+            <StringItem index="229" value="UA - Ucr&#xe2;nia"/>
+            <StringItem index="230" value="UG - Uganda"/>
+            <StringItem index="231" value="UM - Ilhas Menores Distantes dos Estados Unidos"/>
+            <StringItem index="232" value="US - Estados Unidos"/>
+            <StringItem index="233" value="UY - Uruguai"/>
+            <StringItem index="234" value="UZ - Uzbequist&#xe3;o"/>
+            <StringItem index="235" value="VA - Santa S&#xe9; (Cidade do Vaticano)"/>
+            <StringItem index="236" value="VC - S&#xe3;o Vicente e Granadinas"/>
+            <StringItem index="237" value="VE - Venezuela"/>
+            <StringItem index="238" value="VG - Ilhas Virgens Brit&#xe2;nicas"/>
+            <StringItem index="239" value="VI - Ilhas Virgens Americanas"/>
+            <StringItem index="240" value="VN - Vietn&#xe3;"/>
+            <StringItem index="241" value="VU - Vanuatu"/>
+            <StringItem index="242" value="WF - Ilhas Wallis e Futuna"/>
+            <StringItem index="243" value="WS - Samoa"/>
+            <StringItem index="244" value="XK - Kosovo"/>
+            <StringItem index="245" value="YE - I&#xea;men"/>
+            <StringItem index="246" value="YT - Maiote"/>
+            <StringItem index="247" value="ZA - &#xc1;frica do Sul"/>
+            <StringItem index="248" value="ZM - Z&#xe2;mbia"/>
+            <StringItem index="249" value="ZW - Zimb&#xe1;bue"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pa&#xed;s:"/>
       </Properties>
     </Component>
   </SubComponents>
